@@ -1,0 +1,208 @@
+<?php 
+include "header.php";
+?>
+
+<table cellspacing="0"><tbody><tr><td>
+<center>
+<b><font size="3" color="#ffff00">RACE RESULTS for 2024-2025 SEASON</font></b><br />&nbsp;<br />
+<font color="#ffff00"><br /></font></div>
+<table width="90%"><tr><td>
+<table cellspacing="0" border="0">
+	<colgroup width="500"></colgroup>
+	<colgroup width="500"></colgroup>
+	<tr>
+		<td height="31" align="center" bgcolor="#000000"><b><font color="#FFFF00" size=3>Saturday Races</font></b></td>
+		<td align="center" bgcolor="#000000"><b><font color="#FFFF00" size=3>Wednesday Night Races</font></b></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="31" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/12th-october-2024.php">12th October 2024</a></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center"><font color="#FFFF00" size=3>&nbsp;</font></td>
+	</tr>	
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="31" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/19th-october-2024.php">19th October 2024</a></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center"><font color="#FFFF00" size=3>&nbsp;</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="31" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/26th-october-2024.php">26th October 2024</a></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center"><font color="#FFFF00" size=3>&nbsp;</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="31" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/2nd-november-2024.php">2nd November 2024</a></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center"><font color="#FFFF00" size=3>
+		&nbsp;</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="31" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/9th-november-2024.php">9th November 2024</a></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center"><font color="#FFFF00" size=3>
+		&nbsp;</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="31" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/16th-november-2024.php">16th November 2024</a></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/20th-november-2024.php">20th November 2024</a></font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="31" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/23rd-november-2024.php">23rd November 2024</a></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/27th-november-2024.php">27th November 2024</a></font></td>
+		</a></font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="31" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/30th-november-2024.php">30th November 2024</a></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/4th-december-2024.php">4th December 2024</a></font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="31" align="center"><font color="#FFFF00" size=3>
+		7th December 2023 - No Swim, High Tide, Rain. </font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/11th-december-2024.php">11th December 2024</a></font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="31" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/14th-december-2024.php">14th December 2024</a></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/18th-december-2024.php">18th December 2024</a></font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="31" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/21st-december-2024.php">21st December 2024</a></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center"><font color="#FFFF00" size=3>
+		25th December 2024 - No Swim - Christmas Day</a></font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="31" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/28th-december-2024.php">28th December 2024</a></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center"><font color="#FFFF00" size=3>
+		1st January 2024 - No Swim - New Years Day</font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="31" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/4th-january-2025.php">4th January 2025</a></font></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center"><font color="#FFFF00" size=3>
+		8th January 2025 - No swim, Raining, Bleak Weather. </a></font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="31" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/11th-january-2025.php">11th January 2025</a></font><br />
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/15th-january-2025.php">15th January 2025</a></font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="31" align="center"><font color="#FFFF00" size=3>
+		<a href="./images/17th-jan-2025_d-chant.MP4">18th January 2025 - No Swim, Big Swell, High Tide.</a></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/22nd-january-2025.php">22nd January 2025</a></font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="31" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/25th-january-2025.php">25th January 2025</a>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/29th-january-2025.php">29th January 2025</a></font></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="31" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/1st-february-2025.php">1st February 2025</a><br />
+		<a href="./archive/medley-championships-2025.php">Medley Championships</a><br />
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/400m-championships-2025.php">400m Championships</a></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="31" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/8th-february-2025.php">8th February 2025</a><br />
+		</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/12th-february-2025.php">12th February 2025</a><br />
+                </td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="31" align="center"><font color="#FFFF00" size=3>
+		15th February 2025<br />
+		<a href="./archive/backstroke-championships-2025.php">Backstroke Championships</a><br />
+		<a href="./archive/breaststroke-championships-2025.php">Breaststroke Championships</a></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/19th-february-2025.php">19th February 2025</a></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="31" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/22nd-february-2025.php">22nd February 2025</a></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/26th-february-2025.php">26th February 2025</a></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="31" align="center"><font color="#FFFF00" size=3>
+		1st March 2025<br>
+		<a href="./archive/freestyle-championships-2025.php">Freestyle Championships</a><br />
+		<a href="./archive/butterfly-championships-2025.php">Butterfly Championships</a><br />
+		</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/5th-march-2025.php">5th March 2025</a><br />
+		</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="31" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/8th-march-2025.php">8th March 2025</a></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center"><font color="#FFFF00" size=3>
+		12th March 2024<br />
+		<a href="./archive/800m-championships-2025.php">800m Freestyle Championships</a><br /></td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="31" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/15th-march-2025.php">15th March 2025</a><br />
+		<a href="./archive/1500_2025_1.php">1500m Swimmers</a><br />
+		</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center"><font color="#FFFF00" size=3>
+		19th March 2025 <br />
+		<a href="./archive/1500_2025_2.php">1500m Swimmers</a><br />
+		</td>
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="31" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/22nd-march-2025.php">22nd March 2025</a><br />
+		<a href="./archive/200m-freestyle-championships-2025.php">200m Championships</a></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center"><font color="#FFFF00" size=3>
+		26th March 2025<br /><a href="./archive/1500_2025_3.php">1500m Swimmers</a><br /></td>
+
+	</tr>
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="31" align="center"><font color="#FFFF00" size=3>
+		29th March 2024 -- Heavy Rain -- No Swim<br /><a href="./archive/1500_2025_4.php">1500m Swimmers</a><br />
+		</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center"><font color="#FFFF00" size=3>
+		&nbsp;
+                </td>
+	</tr>
+<!--
+	<tr>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" height="31" align="center"><font color="#FFFF00" size=3>
+		<a href="./archive/25th-march-2023.php">25th March 2023</a><br />
+		</td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000" align="center"><font color="#FFFF00" size=3>
+		&nbsp;
+                </td>
+	</tr>
+-->
+</table>
+</td><td valign="top">
+
+<!--
+<br />&nbsp;<br /><a href="./images/overflow.JPG"><img src="./images/overflow.JPG" width="400"></a>
+<br /><font color="yellow">Overflow at high tide</font>
+-->
+</td>
+</tr></table>
+</center>
+
+</td></tr></tbody></table>
+<?php
+include "footer.php";
+?>
+
