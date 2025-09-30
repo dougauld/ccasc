@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+<meta name="title" content="Curl Curl ASC" />
+<meta name="description" content="Curl Curl Amateur Swimming Club&#xD;&#xA;curlcurlswimming.org.au&#xD;&#xA;amateur swimming, ocean pool, summer season, distances and styles for all ages and abilities." />
+<link rel="stylesheet" type="text/css" href="../standard.css" />
+<title>Curl Curl ASC</title>
+<style>
+ul {
+ list-style-type: none;
+   }
+a, a:hover, a:focus, a:active {
+ text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+<table cellspacing="10" cellpadding="0">
+<tr>
+<td>
+<h1><font color="#F1F1F1">Curl Curl Amateur Swimming Club</font></h1>
+</td><td>&nbsp;</td>
+</tr>
+<tr>
+<td colspan="2">
+</td> 
+</tr>
+</table>
+<table cellspacing="10" cellpadding="10" border="0">
+ <tr>
+ <td style="width:250px">
+ <ul role="navigation" jotId="navList">&nbsp;<br />&nbsp;<br />
+ <li><a href="../index.html" class="sites-navigation-link">Welcome</li><br />
+ <li><a href="../committee.html" class="sites-navigation-link">Committee</a></li><br />
+ <li><a href="../life-members.html" class="sites-navigation-link">Life Members</a></li><br />
+ <li><a href="../constitution.html" class="sites-navigation-link">Constitution</a></li><br />
+ <li><a href="../club-rules.html" class="sites-navigation-link">Club Rules</a></li><br />
+ <li><a href="../swim-program.html" class="sites-navigation-link">Swim Program</a></li><br />
+ <li><a href="../records.html" class="sites-navigation-link">Race Records</a></li><br />
+ <li><a href="../swimming-results.html" class="sites-navigation-link">Swim Results</a></li><br />
+ <li><a href="../pointscore.html" class="sites-navigation-link">Pointscore</a></li><br />
+ <li><a href="../archived-results.html" class="sites-navigation-link">Archived Results/News</a></li><br />
+ <li><a href="./index.html" class="sites-navigation-link"><b>&#9755; Photos</b></a></li><br />
+ <li><a href="../links.html" class="sites-navigation-link">Links</a></li><br />
+ </ul>
+ </td>
+ <td><table cellspacing=2><tr>
+ <?php
+    $col=0;
+    // Opens directory
+    $myDirectory=opendir("./");
+       
+    // Gets each entry
+    while($entryName=readdir($myDirectory)) {
+     $dirArray[]=$entryName;
+    }
+        
+   // Closes directory
+   closedir($myDirectory);
+        
+   // Counts elements in array
+   $indexCount=count($dirArray);
+//   echo "index count = ".$indexCount."\n";
+        
+   // Loops through the array of files
+   for ($index=0; $index < $indexCount; $index++) {
+        
+   // Gets File Names
+    $name=$dirArray[$index];
+    $extn = substr($name, strrpos($name, '.')+1);
+//    echo "...".$name."<br />\n";
+//    $namehref=$dirArray[$index];
+       
+    // Gets Extensions 
+//    $extn=findexts($dirArray[$index]); 
+//    echo "...ext ".$extn."<br />\n";      
+    // Prettifies File Types, add more to suit your needs.
+    $show=0;
+    switch ($extn){
+            case "png": $show=1; break;
+    }
+//    echo "show=".$show."\n";      
+    if ($show==1) {
+     $col=$col+1;
+     if ($col>5) {
+      echo "</tr><tr><td>\n";
+      $col=1;
+     } else { 
+      echo "<td>";
+     } 
+     $name1=substr($name,0,-4);
+     echo "<a href='".$name1.".jpg'><img src='".$name."' width='200' height='165'></td>";
+    }
+   }
+?>
+</tr></table>
+<center>
+<p>Powered By <a href="http://www.fsservice.com.au">FsService</a></b> (c) 1995-2024</p>
+</center>
+<!-- Google Analytics Recording -->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-5678902-6']);
+    _gaq.push(['_trackPageview']);  
+(function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>               
+
+</body>
+</html>
