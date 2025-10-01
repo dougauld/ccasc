@@ -48,47 +48,20 @@ a, a:hover, a:focus, a:active {
  </ul>
  </td>
  <td><table cellspacing=2><tr>
-<script>
-const fs = require('fs');
-const path = require('path');
-
-let col = 0;
-const dirArray = [];
-
-// Reads directory entries
-const myDirectory = fs.readdirSync('./');
-
-myDirectory.forEach(entryName => {
-  dirArray.push(entryName);
-});
-
-const indexCount = dirArray.length;
-
-for (let index = 0; index < indexCount; index++) {
-  const name = dirArray[index];
-  const extn = path.extname(name).slice(1);
-
-  let show = 0;
-  switch (extn) {
-    case 'png':
-      show = 1;
-      break;
-  }
-
-  if (show === 1) {
-    col += 1;
-    if (col > 5) {
-      process.stdout.write("</tr><tr><td>\n");
-      col = 1;
-    } else {
-      process.stdout.write("<td>");
-    }
-    const name1 = name.slice(0, -4);
-    process.stdout.write(`<a href='${name1}.jpg'><img src='${name}' width='200' height='165'></td>`);
-  }
-}
-</script>
-
+<td><a href='moon_rise.jpg'><img src='moon_rise.png' width='200' height='165'></td><td><a href='relay_team_2002.jpg'><img src='relay_team_2002.png' width='200' height='165'></td><td><a href='santa_at_the_pool.jpg'><img src='santa_at_the_pool.png' width='200' height='165'></td><td><a href='howard_9.jpg'><img src='howard_9.png' width='200' height='165'></td><td><a href='emily.jpg'><img src='emily.png' width='200' height='165'></td></tr><tr><td>
+<a href='south-curl-curl-aerial.jpg'><img src='south-curl-curl-aerial.png' width='200' height='165'></td><td><a href='curl_curl_pool_4.jpg'><img src='curl_curl_pool_4.png' width='200' height='165'></td><td><a href='wed5th-1.jpg'><img src='wed5th-1.png' width='200' height='165'></td><td><a href='wishfullthinking.jpg'><img src='wishfullthinking.png' width='200' height='165'></td><td><a href='surfing_in_the_pool.jpg'><img src='surfing_in_the_pool.png' width='200' height='165'></td></tr><tr><td>
+<a href='xmas_2021.jpg'><img src='xmas_2021.png' width='200' height='165'></td><td><a href='howard_2.jpg'><img src='howard_2.png' width='200' height='165'></td><td><a href='very_big_swell.jpg'><img src='very_big_swell.png' width='200' height='165'></td><td><a href='old_views_1.jpg'><img src='old_views_1.png' width='200' height='165'></td><td><a href='marshalling_2_1975.jpg'><img src='marshalling_2_1975.png' width='200' height='165'></td></tr><tr><td>
+<a href='race_start.jpg'><img src='race_start.png' width='200' height='165'></td><td><a href='relay_team_2002_a.jpg'><img src='relay_team_2002_a.png' width='200' height='165'></td><td><a href='18-jan-2025.jpg'><img src='18-jan-2025.png' width='200' height='165'></td><td><a href='south_curl_curl_1930.jpg'><img src='south_curl_curl_1930.png' width='200' height='165'></td><td><a href='curl_curl_pool.jpg'><img src='curl_curl_pool.png' width='200' height='165'></td></tr><tr><td>
+<a href='members_dec_2015.jpg'><img src='members_dec_2015.png' width='200' height='165'></td><td><a href='race_finish.jpg'><img src='race_finish.png' width='200' height='165'></td><td><a href='members_2005.jpg'><img src='members_2005.png' width='200' height='165'></td><td><a href='south_curl_curl_60s-1.jpg'><img src='south_curl_curl_60s-1.png' width='200' height='165'></td><td><a href='wed5th-2.jpg'><img src='wed5th-2.png' width='200' height='165'></td></tr><tr><td>
+<a href='wed5th-4.jpg'><img src='wed5th-4.png' width='200' height='165'></td><td><a href='pool_closed.jpg'><img src='pool_closed.png' width='200' height='165'></td><td><a href='jan-23-1.jpg'><img src='jan-23-1.png' width='200' height='165'></td><td><a href='wed5th-3.jpg'><img src='wed5th-3.png' width='200' height='165'></td><td><a href='wednesday_night_2022.jpg'><img src='wednesday_night_2022.png' width='200' height='165'></td></tr><tr><td>
+<a href='wet_night1.jpg'><img src='wet_night1.png' width='200' height='165'></td><td><a href='foamy pool.jpg'><img src='foamy pool.png' width='200' height='165'></td><td><a href='clubphoto_2010.jpg'><img src='clubphoto_2010.png' width='200' height='165'></td><td><a href='members 2006.jpg'><img src='members 2006.png' width='200' height='165'></td><td><a href='handicap_carnival_team_25.jpg'><img src='handicap_carnival_team_25.png' width='200' height='165'></td></tr><tr><td>
+<a href='ryders.jpg'><img src='ryders.png' width='200' height='165'></td><td><a href='backstrokeflags.jpg'><img src='backstrokeflags.png' width='200' height='165'></td><td><a href='oldest_youngest.jpg'><img src='oldest_youngest.png' width='200' height='165'></td><td><a href='diving.jpg'><img src='diving.png' width='200' height='165'></td><td><a href='brannan_girls.jpg'><img src='brannan_girls.png' width='200' height='165'></td></tr><tr><td>
+<a href='howard_6.jpg'><img src='howard_6.png' width='200' height='165'></td><td><a href='covid_pool.jpg'><img src='covid_pool.png' width='200' height='165'></td><td><a href='27_nov_2021_2.jpg'><img src='27_nov_2021_2.png' width='200' height='165'></td><td><a href='ross_shineberg.jpg'><img src='ross_shineberg.png' width='200' height='165'></td><td><a href='curl_curl_60s.jpg'><img src='curl_curl_60s.png' width='200' height='165'></td></tr><tr><td>
+<a href='cc_swimmers.pdf-pages.jpg'><img src='cc_swimmers.pdf-pages.png' width='200' height='165'></td><td><a href='ccpool_31oct2020.jpg'><img src='ccpool_31oct2020.png' width='200' height='165'></td><td><a href='howard Hansen.jpg'><img src='howard Hansen.png' width='200' height='165'></td><td><a href='wet_day.jpg'><img src='wet_day.png' width='200' height='165'></td><td><a href='members2007.jpg'><img src='members2007.png' width='200' height='165'></td></tr><tr><td>
+<a href='marshalling_1975.jpg'><img src='marshalling_1975.png' width='200' height='165'></td><td><a href='overflow3.jpg'><img src='overflow3.png' width='200' height='165'></td><td><a href='march 2001.jpg'><img src='march 2001.png' width='200' height='165'></td><td><a href='wed5th-5.jpg'><img src='wed5th-5.png' width='200' height='165'></td><td><a href='night_fishing.jpg'><img src='night_fishing.png' width='200' height='165'></td></tr><tr><td>
+<a href='27_nov_2021.jpg'><img src='27_nov_2021.png' width='200' height='165'></td><td><a href='south_curl_curl_1930-2.jpg'><img src='south_curl_curl_1930-2.png' width='200' height='165'></td><td><a href='santa_2021.jpg'><img src='santa_2021.png' width='200' height='165'></td><td><a href='cc_logo.jpg'><img src='cc_logo.png' width='200' height='165'></td><td><a href='swim_lanes.jpg'><img src='swim_lanes.png' width='200' height='165'></td></tr><tr><td>
+<a href='high_tide.jpg'><img src='high_tide.png' width='200' height='165'></td><td><a href='400champs_1.jpg'><img src='400champs_1.png' width='200' height='165'></td><td><a href='timekeepers_1974.jpg'><img src='timekeepers_1974.png' width='200' height='165'></td><td><a href='ccpool_rebuild.jpg'><img src='ccpool_rebuild.png' width='200' height='165'></td><td><a href='wet_saturday.jpg'><img src='wet_saturday.png' width='200' height='165'></td></tr><tr><td>
+<a href='jan-23-2.jpg'><img src='jan-23-2.png' width='200' height='165'></td><td><a href='oy.jpg'><img src='oy.png' width='200' height='165'></td>
 </tr></table>
 <center>
 <p>Powered By <a href="https://curlcurlswimming.org.au">CCASC</a></b> (c) 1995-2025</p>
