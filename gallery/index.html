@@ -48,57 +48,50 @@ a, a:hover, a:focus, a:active {
  </ul>
  </td>
  <td><table cellspacing=2><tr>
- <?php
-    $col=0;
-    // Opens directory
-    $myDirectory=opendir("./");
-       
-    // Gets each entry
-    while($entryName=readdir($myDirectory)) {
-     $dirArray[]=$entryName;
+<script>
+const fs = require('fs');
+const path = require('path');
+
+let col = 0;
+const dirArray = [];
+
+// Reads directory entries
+const myDirectory = fs.readdirSync('./');
+
+myDirectory.forEach(entryName => {
+  dirArray.push(entryName);
+});
+
+const indexCount = dirArray.length;
+
+for (let index = 0; index < indexCount; index++) {
+  const name = dirArray[index];
+  const extn = path.extname(name).slice(1);
+
+  let show = 0;
+  switch (extn) {
+    case 'png':
+      show = 1;
+      break;
+  }
+
+  if (show === 1) {
+    col += 1;
+    if (col > 5) {
+      process.stdout.write("</tr><tr><td>\n");
+      col = 1;
+    } else {
+      process.stdout.write("<td>");
     }
-        
-   // Closes directory
-   closedir($myDirectory);
-        
-   // Counts elements in array
-   $indexCount=count($dirArray);
-//   echo "index count = ".$indexCount."\n";
-        
-   // Loops through the array of files
-   for ($index=0; $index < $indexCount; $index++) {
-        
-   // Gets File Names
-    $name=$dirArray[$index];
-    $extn = substr($name, strrpos($name, '.')+1);
-//    echo "...".$name."<br />\n";
-//    $namehref=$dirArray[$index];
-       
-    // Gets Extensions 
-//    $extn=findexts($dirArray[$index]); 
-//    echo "...ext ".$extn."<br />\n";      
-    // Prettifies File Types, add more to suit your needs.
-    $show=0;
-    switch ($extn){
-            case "png": $show=1; break;
-    }
-//    echo "show=".$show."\n";      
-    if ($show==1) {
-     $col=$col+1;
-     if ($col>5) {
-      echo "</tr><tr><td>\n";
-      $col=1;
-     } else { 
-      echo "<td>";
-     } 
-     $name1=substr($name,0,-4);
-     echo "<a href='".$name1.".jpg'><img src='".$name."' width='200' height='165'></td>";
-    }
-   }
-?>
+    const name1 = name.slice(0, -4);
+    process.stdout.write(`<a href='${name1}.jpg'><img src='${name}' width='200' height='165'></td>`);
+  }
+}
+</script>
+
 </tr></table>
 <center>
-<p>Powered By <a href="http://www.fsservice.com.au">FsService</a></b> (c) 1995-2024</p>
+<p>Powered By <a href="https://curlcurlswimming.org.au">CCASC</a></b> (c) 1995-2025</p>
 </center>
 <!-- Google Analytics Recording -->
 <script type="text/javascript">
