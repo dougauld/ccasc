@@ -2792,9 +2792,6 @@ body.jfk-scrollbar::-webkit-scrollbar-corner {
 .goog-tree-hide-root {
  display:none
 }
-.apps-share-sprite {
- background-image:url(//ssl.gstatic.com/docs/documents/share/images/sprite-22.svg)
-}
 .goog-inline-block {
  position:relative;
  display:-moz-inline-box;
@@ -4221,7 +4218,6 @@ div.modal-dialog-bg {
  width:454px
 }
 .share-client-spinner {
- background-image:url(//ssl.gstatic.com/docs/documents/share/images/spinner-1.gif);
  display:inline-block;
  margin-top:41px;
  width:16px;
@@ -4528,11 +4524,6 @@ span.CSS_SHORTCUTS_HELP_POPUP_KEY_MNEMONIC {
  text-align:right;
  padding-right:6px
 }
-.goog-tree-row .goog-tree-icon {
- background-image:url(../../images/tree_ltr.gif);
- height:16px;
- width:16px
-}
 #sites-chrome-header td.header-component {
  margin:0;
  padding:0
@@ -4658,7 +4649,6 @@ span.CSS_SHORTCUTS_HELP_POPUP_KEY_MNEMONIC {
  height:11px;
  padding:0 2px;
  margin:1px 0 0 4px;
- background:url(../../images/tree_ltr.gif) no-repeat -194px -27px
 }
 .sites-sidebar-nav .current-bg {
  font-weight:bold
@@ -4677,7 +4667,6 @@ span.CSS_SHORTCUTS_HELP_POPUP_KEY_MNEMONIC {
 }
 .sites-attachment-icon,
 .sites-comment-icon {
- background:url(../../images/icon_sprites.gif) no-repeat;
  display:block;
  float:left;
  height:11px;
@@ -4686,27 +4675,21 @@ span.CSS_SHORTCUTS_HELP_POPUP_KEY_MNEMONIC {
  background-position:-84px -1px
 }
 #sites-canvas-bottom-panel .sites-attach-icon-doc {
- background:url(../../images/attach_icons/icon_word.gif) no-repeat left 4px;
  padding-left:19px
 }
 #sites-canvas-bottom-panel .sites-attach-icon-img {
- background:url(../../images/attach_icons/icon_img.gif) no-repeat left 4px;
  padding-left:19px
 }
 #sites-canvas-bottom-panel .sites-attach-icon-page {
- background:url(../../images/attach_icons/icon_page.gif) no-repeat left 4px;
  padding-left:19px
 }
 #sites-canvas-bottom-panel .sites-attach-icon-spread {
- background:url(../../images/attach_icons/icon_xls.gif) no-repeat left 4px;
  padding-left:19px
 }
 #sites-canvas-bottom-panel .sites-attach-icon-presentation {
- background:url(../../images/attach_icons/icon_ppt.gif) no-repeat left 4px;
  padding-left:19px
 }
 #sites-canvas-bottom-panel .sites-attach-icon-pdf {
- background:url(../../images/attach_icons/icon_pdf.gif) no-repeat left 4px;
  padding-left:19px
 }
 #sites-attachment-form p {
@@ -4900,7 +4883,6 @@ div.site-template-createbtn span {
  width:16px;
  height:16px;
  margin:7px 0;
- background-image:url(../../images/tree_ltr.gif)
 }
 #mobile-sidebar-expander.collapsed .sidebar-expander-arrow {
  background-position:-216px 0
@@ -4925,15 +4907,6 @@ div.site-template-createbtn span {
  width:16px;
  height:16px;
  margin:7px 0;
- background-image:url(../../images/camelot.png)
-}
-#sites-sidebar-expander.left.collapsed .sidebar-expander-arrow,
-#sites-sidebar-expander.right .sidebar-expander-arrow {
- background:url(../../images/tree_ltr.gif) no-repeat -194px 0
-}
-#sites-sidebar-expander.left .sidebar-expander-arrow,
-#sites-sidebar-expander.right.collapsed .sidebar-expander-arrow {
- background:url(../../images/tree_rtl.gif) no-repeat -194px 0
 }
 #sites-chrome-sidebar-right.collapsed,
 #sites-chrome-sidebar-left.collapsed,
@@ -5046,11 +5019,9 @@ div.sites-layout-empty-tile {
 }
 @font-face {
  font-family:ie-sites-symbol-font;
- src:url(../../images/sites.eot)
 }
 @font-face {
  font-family:non-ie-sites-symbol-font;
- src:url(../../images/sites.ttf)
 }
 .sites-symbol {
  font-family:ie-sites-symbol-font,non-ie-sites-symbol-font;
@@ -5390,7 +5361,7 @@ body .goog-menuheader {
  font-weight:bold
 }
 body .goog-toolbar {
- background:#f9f9f9 url(../../images/toolbar_bg.gif) repeat-x left bottom;
+ background:#f9f9f9 repeat-x left bottom;
  border-bottom:1px solid #b0bdcc;
  padding:3px 2px 2px
 }
@@ -5494,12 +5465,10 @@ body .focused .selected .goog-tree-item-label {
  cursor:move
 }
 .sites-tree-draggable>.goog-tree-row .goog-tree-icon {
- background-image:url(../../images/tree_ltr_drag.gif);
  height:16px;
  width:20px
 }
 .goog-tree-root>.goog-tree-row .goog-tree-icon {
- background-image:url(../../images/tree_ltr.gif);
  height:16px;
  width:16px
 }
@@ -5589,17 +5558,8 @@ body #button2 {
  font:normal .8em verdana,sans-serif;
  border:1px solid #000
 }
-.goog-tree-children {
- background-image:url("../../images/I-ltr.png")!important
-}
 .modal-dialog-buttons {
  clear:both
-}
-.goog-dimension-picker-unhighlighted {
- background-image:url(../../images/dimension-unhighlighted.png)
-}
-.goog-dimension-picker-highlighted {
- background-image:url(../../images/dimension-highlighted.png)
 }
 .goog-palette-table {
  margin:0
@@ -5774,7 +5734,6 @@ body.sites-edit-in-progress #sites-page-info-bar {
 .sites-appbar-gradient {
  height:5px;
  margin-bottom:-5px;
- background:transparent url(../../images/bargrad.png) top left repeat-x;
  position:relative;
  z-index:100
 }
@@ -5838,7 +5797,6 @@ body.sites-edit-in-progress #sites-page-info-bar {
  right:18px
 }
 #more-actions-btn .sites-gears-button-icon {
- background-image:url(../../images/icon_gear.png);
  width:17px;
  height:17px;
  margin-top:4px;
@@ -6111,23 +6069,19 @@ body #sites-page-title-header,
  margin:0 1px 0 0
 }
 .sites-toolbar-icon-new {
- background:url(../../images/icon_sprites.gif) no-repeat;
  background-position:0 0;
  width:11px;
  font-weight:bold
 }
 .sites-sitemap-hierarchy-icon {
- background-image:url(../../images/toolbar2.gif);
  background-position:-825px 0;
  width:16px
 }
 .sites-sitemap-list-icon {
- background-image:url(../../images/toolbar2.gif);
  background-position:-855px 0;
  width:16px
 }
 .sites-toolbar-icon-edit {
- background:url(../../images/icon_sprites.gif) no-repeat;
  background-position:-13px 0;
  width:13px;
  font-weight:bold
@@ -6369,7 +6323,7 @@ tt:-moz-any-link {
  cursor:pointer
 }
 .goog-ws-lp-maestro-list .selected {
- background:#fffab6 url(../../images/check.gif) no-repeat;
+ background:#fffab6 no-repeat;
  background-position:1% 50%
 }
 .goog-ws-lp-maestro-function:hover {
@@ -6396,7 +6350,7 @@ ul.goog-ws-ig-maestro-list {
  background-color:#fffab6
 }
 .goog-ws-ig-maestro-list .selected {
- background:#fffab6 url(../../images/check.gif) no-repeat;
+ background:#fffab6 no-repeat;
  background-position:1% 50%;
  outline:none
 }
@@ -6962,7 +6916,6 @@ div.sites-sidebar-nav {
  right:0
 }
 .goog-menuitem .sites-moreactions-icon {
- background:url(../../images/camelot.png) no-repeat;
  position:absolute;
  left:4px;
  top:9px
@@ -6990,7 +6943,6 @@ div.sites-sidebar-nav {
  margin-top:-3px
 }
 .sites-chrome-navigationdialog-btn {
- background:url(../../images/camelot.png) no-repeat;
  display:inline-block;
  left:4px;
  opacity:0.5;
@@ -7192,7 +7144,6 @@ body .goog-ws-list-oobe .goog-ws-list-oobe-box {
 .sites-embed-footer-icon {
  display:inline-block;
  margin:0px 3px;
- background-image:url(../../images/toolbar2.gif);
  background-repeat:no-repeat;
  width:16px;
  height:16px;
@@ -7227,7 +7178,6 @@ body .goog-ws-list-oobe .goog-ws-list-oobe-box {
  background-position:-1118px 0
 }
 .sites-folder-icon {
- background:no-repeat url(../../images/command.png) 0 -1173px;
  height:20px;
  opacity:.55;
  width:21px
@@ -7450,11 +7400,6 @@ p.sites-search-noresults {
  width:8px;
  margin-left:8px
 }
-.sites-permissions-sitemap div .goog-tree-row .goog-tree-expand-icon-blank,
-.sites-permissions-sitemap div .goog-tree-row .goog-tree-expand-icon-plus,
-.sites-permissions-sitemap div .goog-tree-row .goog-tree-expand-icon-minus {
- background:url(../../images/camelot.png) no-repeat
-}
 .sites-permissions-sitemap div .goog-tree-row .goog-tree-expand-icon-blank {
  background-position:-275px 0
 }
@@ -7475,7 +7420,6 @@ p.sites-search-noresults {
 }
 .sites-permissions-sitemap .sites-tree-root-icon,
 .sites-permissions-sitemap .sites-tree-icon-permissions-icon {
- background:url(../../images/camelot.png) no-repeat;
  background-position-y:0px;
  margin-left:6px;
  position:relative;
@@ -7613,7 +7557,6 @@ ol {
  text-decoration:underline
 }
 .sites-site-template-bar-close {
- background:url(../../images/icon_close.gif) no-repeat;
  cursor:pointer;
  height:15px;
  position:absolute;
@@ -7706,7 +7649,6 @@ ol {
  vertical-align:text-bottom
 }
 .inherits-selector-choice-icon {
- background:url(../../images/icon_sprites.gif) no-repeat;
  height:11px;
  left:27px;
  margin-top:5px;
@@ -7745,7 +7687,6 @@ ol {
  -webkit-box-shadow:gray 3px 3px 3px
 }
 .goog-adsense-promo-up-arrow {
- background-image:url(../../images/promos.png);
  background-position:-37px -4px;
  width:60px;
  height:30px;
@@ -7764,7 +7705,6 @@ ol {
  display:inline
 }
 .goog-adsense-promo-img {
- background-image:url(../../images/promos.png);
  background-position:-135px 0;
  background-repeat:no-repeat;
  margin:16px 0;
@@ -7895,8 +7835,6 @@ input[type=radio]:checked:after {
  width:9px
 }
 input[type=checkbox]:checked:after {
- content:url('../../images/check_no_box.png');
- display:block;
  left:-5px;
  position:absolute;
  top:-6px
@@ -7963,7 +7901,6 @@ input.goog-toolbar-combo-button-input {
  z-index:200
 }
 .sites-camelot-icon {
- background-image:url(../../images/camelot.png);
  height:10px;
  display:inline-block
 }
@@ -8092,7 +8029,6 @@ input.goog-toolbar-combo-button-input {
  height:14px
 }
 #filecabinet-toolbar .sites-filecab-icon-drive {
- background-image:url(../../images/command.png);
  background-position:-2px -1219px;
  width:17px;
  height:17px
@@ -8582,18 +8518,6 @@ div.gadgets-column-prefs {
 }
 .gadgets-column-title {
  color:#fff
-}
-.gadgets-column-close-button {
- background:url(../../images/icon_gadget_tools_light.gif)
-}
-.gadgets-column-minimize-button {
- background:url(../../images/icon_gadget_tools_light.gif) -16px 0
-}
-.gadgets-column-restore-button {
- background:url(../../images/icon_gadget_tools_light.gif) -32px 0
-}
-.gadgets-column-prefs-button {
- background:url(../../images/icon_gadget_tools_light.gif) -48px 0
 }
 td.gadget-pref-label {
  color:#000
