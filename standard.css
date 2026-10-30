@@ -8356,9 +8356,6 @@ a:hover,
 #sites-chrome-everything .sites-canvas-main .sites-embed-content-notitle {
  color:#000;
  background-color:#fff;
- background-image:url(content-bg.gif);
- background-position:top;
- background-repeat:repeat-x
 }
 #sites-chrome-everything .sites-canvas-main .sites-embed-title {
  color:#fff;
@@ -8366,9 +8363,6 @@ a:hover,
  font-size:12px;
  border-bottom:1px solid #0067a6;
  margin:0;
- background-image:url(toolbar-bg.gif);
- background-position:top;
- background-repeat:repeat-x
 }
 .sites-canvas-main .sites-embed .line-divider {
  border-bottom:1px solid #e3e9f3;
